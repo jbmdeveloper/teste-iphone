@@ -55,3 +55,49 @@ body {
 .app:hover {
     transform: scale(1.2);
 }
+
+.phone {
+    color: aliceblue;
+    font-size: 25px;
+    margin-left: 10%;
+    display: inline-block;
+    float: left;
+    padding-top: 580px;
+
+}
+
+.camera {
+    color: aliceblue;
+    font-size: 25px;
+    margin-right: 10%;
+    display: inline-block;
+    float: right;
+    padding-top: 580px;
+}
+
+
+.hr-topo{
+    text-align: center;
+}
+.hr-topo  p{
+    color: #04041f;
+    border-radius: 20px;
+    background-color: #04041f;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding-top: 15px;
+    font-size: 5px;
+}
+
+.hr-barra1{
+    text-align: center;
+    padding-top: 610px;
+}
+.hr-barra1  p{
+    color: aliceblue;
+    border-radius: 20px;
+    background-color: aliceblue;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: 4px;
+}
