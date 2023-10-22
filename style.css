@@ -22,7 +22,7 @@ body {
 #screen {
     background-color: #0000004d;
     width: 85%;
-    height: 50%;
+    height: 70%;
     background-size: cover;
     position: absolute;
     top: 45%;
@@ -40,10 +40,43 @@ body {
 }
 
 
-.instagram { left: 50px; top: 50px;}
-.facebook { right: 50px; top: 50px; }
-.whatsapp { left: 50px; bottom: 50px; }
-.pinterest { right: 50px; bottom: 50px; }
+.instagram { 
+    left: 50px; top: 10%;
+    animation: pulso 0.8s infinite;
+}
+.tiktok { 
+    right: 50px; top: 10%;
+    animation: pulso 0.8s infinite; 
+}
+.whatsapp { 
+    left: 50px; top: 40%;
+    animation: pulso 0.8s infinite;
+}
+.facebook { 
+    right: 50px; top: 40%; 
+    animation: pulso 0.8s infinite;
+}
+.webshoppiing { 
+    left: 50px; bottom: 10%;
+    animation: pulso 0.8s infinite;
+ }
+.kiwify { 
+    right: 50px; bottom: 10%;
+    animation: pulso 0.8s infinite; 
+}
+
+
+@keyframes pulso {
+    0% {
+        transform: scale(1); /* Tamanho inicial do elemento */
+    }
+    50% {
+        transform: scale(1.1); /* Tamanho aumenta durante a metade da animação */
+    }
+    100% {
+        transform: scale(1); /* Retorna ao tamanho original no final da animação */
+    }
+}
 
 .app img {
     width: 100%;
